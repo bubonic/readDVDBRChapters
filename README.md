@@ -15,6 +15,14 @@ Prompts user for adding chapter titles if you know them.
 
 A little python script I wrote to add timestamps. 
 
+## Usage
+
+`./read_chapters2.sh filename titleno`
+
+filname = chapter file you wish to write to
+titleno = not necessary unless you are completely sure of the title no
+
+WHen prompted for the title number after running the script and seeing the lsdvd ouput besure to inpur the titleno with a leading '0' unless it is 10 or above.
 
 # bread_chapters.sh
 
