@@ -22,7 +22,7 @@ A little python script I wrote to add timestamps.
 filname = chapter file you wish to write to
 titleno = not necessary unless you are completely sure of the title no
 
-WHen prompted for the title number after running the script and seeing the lsdvd ouput besure to inpur the titleno with a leading '0' unless it is 10 or above.
+When prompted for the title number after running the script and seeing the lsdvd ouput be sure to input the titleno with a leading '0' unless it is 10 or above.
 
 # bread_chapters.sh
 
@@ -32,4 +32,9 @@ Reads chapter timestamps from a BLURAY rip and exports chapter info to a text fi
 
 Prompts user for adding chapter titles if you know them.
 
+## Usage
 
+`/usr/local/bin/bread_chapters.sh playlistfile chapterfilename`
+
+playlistfile is the 00000.mpls or whatever file is associated with the main m2ts file. This takes some trial and error to get it right. 
+chapterfilename is the filename you wish to write the chapter timestamps to. 
