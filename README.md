@@ -9,17 +9,18 @@ Reads chapter timestamps from a DVDrip and exports chapter info to a text file f
 
 When prompted for number of chapters by the script, use one less than the number of chapters listed by the scripts output o/w it will cause an error.
 
+Prompts user for adding chapter titles if you know them. 
+
 ## timeadd.py 
 
 A little python script I wrote to add timestamps. 
 
-Prompts user for adding chapter titles if you know them. 
 
 # bread_chapters.sh
 
 Requires tsMuxeR to be installed. 
 
-Reads chapter timestamps from a BLURAY rip and exports cahpter info to a text file for later use in mkvmerge --chapters input.
+Reads chapter timestamps from a BLURAY rip and exports chapter info to a text file for later use in mkvmerge --chapters input.
 
 Prompts user for adding chapter titles if you know them.
 
